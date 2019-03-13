@@ -40,7 +40,7 @@ public class TableFun {
     public void showAll() { //+
         int i = 1;
         for (Map.Entry<Double, Double> item : table.entrySet()) {
-            System.out.println("Pair " + i +": (" + item.getKey() + " ," + item.getValue() + ")");
+            System.out.print("Pair " + i +": (" + item.getKey() + " ," + item.getValue() + ")\n");
             i++;
         }
     }

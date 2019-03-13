@@ -62,7 +62,7 @@ public class TableFunTest {
     public void showAll() {
         expected.add(7,9);
         expected.showAll();
-        assertEquals("Pair 1: (8.0 ,9.0)\r\nPair 2: (7.0 ,9.0)\r\n", outContent.toString());
+        assertEquals("Pair 1: (8.0 ,9.0)\nPair 2: (7.0 ,9.0)\n", outContent.toString());
     }
 
     @Test
